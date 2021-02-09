@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(48, 47, 47);
+}
+li,a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: aqua;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 1px;
+    
+}
+.logo{
+    margin: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: lime;
+    height: 30px;
+    margin-right: auto ;
+    
+}
+.logo:hover{
+    color: #ae00ff;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 1s ease 0s;
+}
+.nav_links li a:hover{
+    color: #ae00ff;
+}
+
+.left-circle{
+    opacity: 0.5;
+    position: absolute;
+    top: -30px;
+    left: 1090px;
+    height: 300px;
+    width: auto;
+   z-index: -1;
+}
+.right-circle{
+    position: absolute;
+    top: 200px;
+    height: 300px;
+    width: auto;
+    opacity: 0.5;
+}
+.right-small{
+    opacity: 0.5;
+    position: absolute;
+    top:445px;
+    left: 1055px;
+    
+}
+
+.a{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    right: 35%;
+    top: 40%;
+    font-size: 60px;
+   
+}
+.a{
+    background: linear-gradient(to right, aqua, #ae00ff 50%, grey 50%);
+  }
+.a {
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+.a {
+    
+    transition: background-position 1s ease;
+  }
+.a:hover {
+    background-position: 0 100%;
+  }
+.button{
+  
+    position: absolute;
+    right:45%;
+    top: 60%;
+    
+}
+button{ 
+    color: black;
+    padding: 10px 30PX;
+    font-size: 12px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ae00ff;
+}
+button:hover{
+    background-color: aqua;
+    transition: all 1s ease-in-out;
+   
+}
+.Logo{
+    top: -40px;
+    height: 200px;
+    position:absolute;
+    left: 10px;
+    
+}
